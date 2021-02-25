@@ -1,0 +1,6 @@
+---
+# tasks file for clonegitrepo
+- name: Clone repository that holds the web project to host
+  git:
+    repo: https://github.com/QuintinKruger/ansible-web-project.git
+    dest: /
